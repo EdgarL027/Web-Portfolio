@@ -50,19 +50,19 @@ body{
 }
 .job{
     position: relative;
-    text-align: left;
+    text-align: center;
     width: 50%;
     margin: 30px auto;
 }
 .job-list{
     position: relative;
-    text-align: left;
+    text-align: center;
     width: 50%;
     margin: 30px auto;
 }
 .interests{
     position: relative;
-    text-align: left;
+    text-align: center;
     width: 50%;
     margin: 30px auto;
 }
