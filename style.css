@@ -43,23 +43,28 @@ body{
 
 /* The sections below are for all the text below the pfp and before the Contact Me sentence */
 .image-intro{
+    position: relative;
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 0%;
+    width: 50%;
+    margin: 30px auto;
 }
 .job{
     position: relative;
-    left: 235px;
+    text-align: left;
+    width: 50%;
+    margin: 30px auto;
 }
 .job-list{
     position: relative;
-    left: 235px;
-    bottom: -5px;
+    text-align: left;
+    width: 50%;
+    margin: 30px auto;
 }
 .interests{
     position: relative;
-    left: 235px;
-    bottom: -10px;
+    text-align: left;
+    width: 50%;
+    margin: 30px auto;
 }
 .interests li{
     padding: 0.3%;
