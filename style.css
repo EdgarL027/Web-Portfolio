@@ -1,0 +1,25 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color:#53413A;
+    padding: 30px 250px;
+}
+
+header h1{
+    text-align: center;
+    color:#C3C1C1;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header h2{
+    text-align: center;
+    color:#C3C1C1;
+    font-size: 25px;
+}
