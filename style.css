@@ -77,8 +77,8 @@ a{
 
 .email-setence{
     position: relative;
-    left: 235px;
-    top: 5px;
+    text-align: left;
+    width: 50%;
     margin: 30px auto;
 }
 /* Makes all link breaks the same */
