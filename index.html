@@ -5,11 +5,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Web Portfolio</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="normalize.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-	
+	 <!--
+		Header section contains the block of color.
+		Also contains Name and Title.
+	 -->
 	<header>
 		<div>
 			<h1>Edgar Leon</h1>
@@ -19,12 +23,98 @@
 		</div>
 	</header>
 
+	<main>
+		<article>
+			<section class="intro">
+				<div>
+<!--
+	profile picture goes here, along with introduction.
+	Location right below this as well
+-->
+					<img class="pfp" src="Images/pfpCropped.jpg" alt="Profile picture">
+					<h2 class="image-intro">Hi! I'm Edgar Leon</h2>
 
+				</div>
+					<div>
+						<p class="job">I am a software engineer living in Houston, Texas.</p>
+						<p class="job-list">As a former writer and English major, I'm also interested in:</p>
+					</div>
 
+<!--split the list below from the list description above-->
 
+					<div>
+						<ul class="interests">
+							<li>Music that sooths the soul.</li>
+							<li>Quality writing that makes your day better.</li>
+							<li>Working as a team to brainstorm brilliant ideas.</li>
+						</ul>
+					</div>
 
+					<!--remember to have the same color for all links throughout the page-->
 
+					<div>
+						<p class="email-setence">Please have a look around and feel free to <a href="mailto: edgarleon027@gmail.com">Contact Me!</a></p>
+					</div>
+			</section>
 
+<!-------------------------------------------------------Line Break---------------------------------------------------------------------------->
+<hr>
+
+			<section>
+				<div>
+
+					<!--Keep the classes here relative to the About to help with CSS-->
+
+					<h2 class="about">About Edgar</h2>
+						<p class="pAbout">Despite having a fierce love for writing and literature, I found myself unhappy with the possible career paths,
+						and ultimately setteled that writing and reading was more of a hobby.</p>
+
+						<p class="pAbout">I began searching for a career that allowed for some creative freedom but also encouraged collaberative work as I tend to work best on teams.
+						After some time I found I most enjoyed crafting websites and constructing clever code to help give the face of my sites some life.
+						</p>
+
+						<p class="pAbout">If you're looking to hire a new developer (or a team member to join your startup) please reach out! I'm excited to work with others and
+						would love to collaberate and improve my personal skills while also bringing fresh ideas to the table.
+						</p>
+				</div>
+			</section>
+
+<!-------------------------------------------------------Line Break---------------------------------------------------------------------------->
+<hr>
+			<section>
+				<h2 class="contact">Contact Edgar</h2>
+				<p class="pContact">I'd love to hear from you! Please feel free to contact or follow me below:</p>
+				<div>
+
+					<!--Links should be the same color as Contact Me above-->
+
+					<ol class="contactList">
+						<li><a href="https://www.linkedin.com/in/edgar-leon-8712751b0/">LinkedIn</a></li>
+						<li><a href="https://github.com/EdgarL027">GitHub</a></li>
+					</ol>
+				</div>
+				<div>
+
+					<!--
+						Interactive map of Houston.
+						Should have appropriate spacing between list above and footer.
+					-->
+
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d110829.64284659403!2d-95.54990914613839!3d29.765311368140516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1688249949818!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</section>
+		</article>
+	</main>
+
+<!--Footer should have same color and text color as header-->
+
+	<footer>
+		<div>
+			<p>© Edgar Leon</p>
+		</div>
+	</footer>
+
+	<!--Possible javascript inclusion after front-end is built-->
 
 	<script src="script.js">
 	</script>

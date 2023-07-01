@@ -6,20 +6,134 @@ body{
     margin: 0px;
 }
 
+/*3 header sections below for the color, name, and job title. */
 header{
     background-color:#53413A;
-    padding: 30px 250px;
+    padding: 10px 250px;
 }
-
 header h1{
     text-align: center;
     color:#C3C1C1;
-    font-size: 50px;
+    font-size: 60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 header h2{
     text-align: center;
     color:#C3C1C1;
     font-size: 25px;
+    position: relative;
+    bottom: 15px;
+}
+
+/* Profile Picture. May go back and crop this in photoshop */
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    border-radius: 8px;
+    height: 50%;
+}
+
+/* Adds the color to the entire webpage */
+body{
+    background-color: #B09468 ;
+}
+
+/* The sections below are for all the text below the pfp and before the Contact Me sentence */
+.image-intro{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+.job{
+    position: relative;
+    left: 235px;
+}
+.job-list{
+    position: relative;
+    left: 235px;
+    bottom: -5px;
+}
+.interests{
+    position: relative;
+    left: 235px;
+    bottom: -10px;
+}
+.interests li{
+    padding: 0.3%;
+}
+
+/* Makes all links on webpage the same color */
+a{
+    color: darkgreen;
+}
+
+.email-setence{
+    position: relative;
+    left: 235px;
+    top: 5px;
+    margin: 30px auto;
+}
+/* Makes all link breaks the same */
+hr{
+    border: 2px solid #53413A;
+    border-radius: 5px;
+    width: 50%;
+    margin:75px auto;
+}
+
+/* About section */
+.about{
+    text-align: center;
+}
+.pAbout{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    margin: 30px auto;
+}
+
+/*Contact section before the embbeded map */
+.contact{
+    text-align: center;
+}
+.pContact{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    margin: 10px auto;
+}
+.contactList{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    margin: 5px auto;
+}
+.contactList li{
+    position: relative;
+    margin: 3px auto;
+    padding: 0.5%;
+}
+
+/* Map of Houston, should be skewed left towards my side of town */
+iframe{
+    position: relative;
+    display: block;
+    margin: 2% auto;
+    width: 50%;
+    border-radius: 8px;
+    height: 350px;
+}
+
+/*Make sure footer and text are the same colors as the header */
+footer{
+    background-color:#53413A;
+    padding: 10px 250px;
+    text-align: center;
+    margin-top: 10%;
+}
+footer p{
+    color: #C3C1C1;
 }
