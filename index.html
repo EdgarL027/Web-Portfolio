@@ -5,9 +5,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Web Portfolio</title>
-	<link href="normalize.css" rel="stylesheet" type="text/css"/>
-	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
+<!--
+	After we get the okay from Thinkful,
+	we gotta go back and fix this for mobile browsers.
+
+	Manually positioning and aligning text and elements seems to break on mobile
+-->
 
 <body>
 	 <!--
@@ -24,6 +31,15 @@
 	</header>
 
 	<main>
+
+		<!--
+			Article requires a class I believe? Should pass validity test.
+
+			update: class did not work
+			Not entirely sure why or how "article" needs an h element.
+			Don't want to remove article section so I'll ask about this in feedback.
+		-->
+		
 		<article>
 			<section class="intro">
 				<div>
@@ -35,9 +51,13 @@
 					<h2 class="image-intro">Hi! I'm Edgar Leon</h2>
 
 				</div>
+				<!--
+					Writing here should not all be the same font.
+					Possibly consider dividing these to help with mobile version.
+				-->
 					<div>
-						<p class="job">I am a software engineer living in Houston, Texas.</p>
-						<p class="job-list">As a former writer and English major, I'm also interested in:</p>
+						<h3 class="job">I am a software engineer living in Houston, Texas.</h3>
+						<h4 class="interest-list">As a former writer and English major, I'm also interested in:</h4>
 					</div>
 
 <!--split the list below from the list description above-->
@@ -50,14 +70,18 @@
 						</ul>
 					</div>
 
-					<!--remember to have the same color for all links throughout the page-->
+					<!--
+						Remember to have the same color for all links throughout the page
+						Test email link, consider bolding the link
+					-->
 
 					<div>
-						<p class="email-setence">Please have a look around and feel free to <a href="mailto:edgarleon027@gmail.com">Contact Me!</a></p>
+						<h3 class="email-setence">Please have a look around and feel free to <a href="mailto:edgarleon027@gmail.com">Contact Me!</a></h3>
 					</div>
 			</section>
 
-<!-------------------------------------------------------Line Break---------------------------------------------------------------------------->
+<!--Link Break-->
+
 <hr>
 
 			<section>
@@ -66,24 +90,32 @@
 					<!--Keep the classes here relative to the About to help with CSS-->
 
 					<h2 class="about">About Edgar</h2>
-						<p class="pAbout">Despite having a fierce love for writing and literature, I found myself unhappy with the possible career paths,
-						and ultimately setteled that writing and reading was more of a hobby.</p>
+					<!--
+						Text here should all be uniform
+						consider raising up to h3, or h4, text seems a little small and hard to read
+					-->
+						<h4 class="pAbout">Despite having a fierce love for writing and literature, I found myself unhappy with the possible career paths,
+						and ultimately setteled that writing and reading was more of a hobby.</h4>
 
-						<p class="pAbout">I began searching for a career that allowed for some creative freedom but also encouraged collaberative work as I tend to work best on teams.
+						<h4 class="pAbout">I began searching for a career that allowed for some creative freedom but also encouraged collaberative work as I tend to work best on teams.
 						After some time I found I most enjoyed crafting websites and constructing clever code to help give the face of my sites some life.
-						</p>
+						</h4>
 
-						<p class="pAbout">If you're looking to hire a new developer (or a team member to join your startup) please reach out! I'm excited to work with others and
+						<h4 class="pAbout">If you're looking to hire a new developer (or a team member to join your startup) please reach out! I'm excited to work with others and
 						would love to collaberate and improve my personal skills while also bringing fresh ideas to the table.
-						</p>
+						</h4>
 				</div>
 			</section>
 
-<!-------------------------------------------------------Line Break---------------------------------------------------------------------------->
+<!--Line Break-->
+
 <hr>
 			<section>
 				<h2 class="contact">Contact Edgar</h2>
-				<p class="pContact">I'd love to hear from you! Please feel free to contact or follow me below:</p>
+
+				<!--Consider creating a div between these elements-->
+
+				<h3 class="hContact">I'd love to hear from you! Please feel free to contact or follow me below:</h3>
 				<div>
 
 					<!--Links should be the same color as Contact Me above-->
@@ -110,7 +142,7 @@
 
 	<footer>
 		<div>
-			<p>© Edgar Leon</p>
+			<h4>© Edgar Leon</h4>
 		</div>
 	</footer>
 

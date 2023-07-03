@@ -54,12 +54,18 @@ body{
     width: 50%;
     margin: 30px auto;
 }
-.job-list{
+
+/* original name "job list" may be a little confusing */
+
+.interest-list{
     position: relative;
     text-align: left;
     width: 50%;
     margin: 30px auto;
 }
+
+/* interest list and list items */
+
 .interests{
     position: relative;
     text-align: left;
@@ -104,12 +110,18 @@ hr{
 .contact{
     text-align: center;
 }
-.pContact{
+
+/* Small sentence right after "Contact Me" but before list */
+
+.hContact{
     position: relative;
     text-align: left;
     width: 50%;
     margin: 10px auto;
 }
+
+/* Contact section list and list items */
+
 .contactList{
     position: relative;
     text-align: left;
@@ -139,6 +151,9 @@ footer{
     text-align: center;
     margin-top: 10%;
 }
-footer p{
+
+/* Change this to h4 to match the HTML */
+
+footer h4{
     color: #C3C1C1;
 }
